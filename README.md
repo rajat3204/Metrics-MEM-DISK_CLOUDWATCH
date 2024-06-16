@@ -93,3 +93,23 @@ Step 9: Check Custom Metrics in AWS CloudWatch
 Navigate to CloudWatch > Metrics > CWAgent
 
 Step 10: Verify Memory Metrics on the Host
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+set these values to no
+
+> Do you want to turn on StatsD daemon?
+no
+
+> Do you want to monitor metrics from CollectD? WARNING: CollectD must be installed or the Agent will fail to start
+no
+
+> Do you have any existing CloudWatch Log Agent (http://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AgentReference.html) configuration file to import for migration?
+no
+
+> Do you want to monitor any log files?
+no
+
+> Do you want the CloudWatch agent to also retrieve X-ray traces?
+no
